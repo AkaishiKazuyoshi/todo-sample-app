@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEE557842C803CFF00920FCC /* birdman_todoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE557832C803CFF00920FCC /* birdman_todoApp.swift */; };
+		CEE557862C803CFF00920FCC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE557852C803CFF00920FCC /* ContentView.swift */; };
+		CEE557882C803D0100920FCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE557872C803D0100920FCC /* Assets.xcassets */; };
+		CEE5578B2C803D0100920FCC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE5578A2C803D0100920FCC /* Preview Assets.xcassets */; };
+		CEE557952C803D0100920FCC /* birdman_todoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE557942C803D0100920FCC /* birdman_todoTests.swift */; };
+		CEE5579F2C803D0100920FCC /* birdman_todoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE5579E2C803D0100920FCC /* birdman_todoUITests.swift */; };
+		CEE557A12C803D0100920FCC /* birdman_todoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE557A02C803D0100920FCC /* birdman_todoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEE557912C803D0100920FCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEE557782C803CFF00920FCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEE5577F2C803CFF00920FCC;
+			remoteInfo = "birdman-todo";
+		};
+		CEE5579B2C803D0100920FCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEE557782C803CFF00920FCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEE5577F2C803CFF00920FCC;
+			remoteInfo = "birdman-todo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEE557802C803CFF00920FCC /* birdman-todo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "birdman-todo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE557832C803CFF00920FCC /* birdman_todoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = birdman_todoApp.swift; sourceTree = "<group>"; };
+		CEE557852C803CFF00920FCC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CEE557872C803D0100920FCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEE5578A2C803D0100920FCC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CEE557902C803D0100920FCC /* birdman-todoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "birdman-todoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE557942C803D0100920FCC /* birdman_todoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = birdman_todoTests.swift; sourceTree = "<group>"; };
+		CEE5579A2C803D0100920FCC /* birdman-todoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "birdman-todoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE5579E2C803D0100920FCC /* birdman_todoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = birdman_todoUITests.swift; sourceTree = "<group>"; };
+		CEE557A02C803D0100920FCC /* birdman_todoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = birdman_todoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEE5577D2C803CFF00920FCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE5578D2C803D0100920FCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE557972C803D0100920FCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEE557772C803CFF00920FCC = {
+			isa = PBXGroup;
+			children = (
+				CEE557822C803CFF00920FCC /* birdman-todo */,
+				CEE557932C803D0100920FCC /* birdman-todoTests */,
+				CEE5579D2C803D0100920FCC /* birdman-todoUITests */,
+				CEE557812C803CFF00920FCC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEE557812C803CFF00920FCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEE557802C803CFF00920FCC /* birdman-todo.app */,
+				CEE557902C803D0100920FCC /* birdman-todoTests.xctest */,
+				CEE5579A2C803D0100920FCC /* birdman-todoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEE557822C803CFF00920FCC /* birdman-todo */ = {
+			isa = PBXGroup;
+			children = (
+				CEE557832C803CFF00920FCC /* birdman_todoApp.swift */,
+				CEE557852C803CFF00920FCC /* ContentView.swift */,
+				CEE557872C803D0100920FCC /* Assets.xcassets */,
+				CEE557892C803D0100920FCC /* Preview Content */,
+			);
+			path = "birdman-todo";
+			sourceTree = "<group>";
+		};
+		CEE557892C803D0100920FCC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CEE5578A2C803D0100920FCC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CEE557932C803D0100920FCC /* birdman-todoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEE557942C803D0100920FCC /* birdman_todoTests.swift */,
+			);
+			path = "birdman-todoTests";
+			sourceTree = "<group>";
+		};
+		CEE5579D2C803D0100920FCC /* birdman-todoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEE5579E2C803D0100920FCC /* birdman_todoUITests.swift */,
+				CEE557A02C803D0100920FCC /* birdman_todoUITestsLaunchTests.swift */,
+			);
+			path = "birdman-todoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEE5577F2C803CFF00920FCC /* birdman-todo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEE557A42C803D0100920FCC /* Build configuration list for PBXNativeTarget "birdman-todo" */;
+			buildPhases = (
+				CEE5577C2C803CFF00920FCC /* Sources */,
+				CEE5577D2C803CFF00920FCC /* Frameworks */,
+				CEE5577E2C803CFF00920FCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "birdman-todo";
+			productName = "birdman-todo";
+			productReference = CEE557802C803CFF00920FCC /* birdman-todo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEE5578F2C803D0100920FCC /* birdman-todoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEE557A72C803D0100920FCC /* Build configuration list for PBXNativeTarget "birdman-todoTests" */;
+			buildPhases = (
+				CEE5578C2C803D0100920FCC /* Sources */,
+				CEE5578D2C803D0100920FCC /* Frameworks */,
+				CEE5578E2C803D0100920FCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEE557922C803D0100920FCC /* PBXTargetDependency */,
+			);
+			name = "birdman-todoTests";
+			productName = "birdman-todoTests";
+			productReference = CEE557902C803D0100920FCC /* birdman-todoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEE557992C803D0100920FCC /* birdman-todoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEE557AA2C803D0100920FCC /* Build configuration list for PBXNativeTarget "birdman-todoUITests" */;
+			buildPhases = (
+				CEE557962C803D0100920FCC /* Sources */,
+				CEE557972C803D0100920FCC /* Frameworks */,
+				CEE557982C803D0100920FCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEE5579C2C803D0100920FCC /* PBXTargetDependency */,
+			);
+			name = "birdman-todoUITests";
+			productName = "birdman-todoUITests";
+			productReference = CEE5579A2C803D0100920FCC /* birdman-todoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEE557782C803CFF00920FCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					CEE5577F2C803CFF00920FCC = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					CEE5578F2C803D0100920FCC = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = CEE5577F2C803CFF00920FCC;
+					};
+					CEE557992C803D0100920FCC = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = CEE5577F2C803CFF00920FCC;
+					};
+				};
+			};
+			buildConfigurationList = CEE5577B2C803CFF00920FCC /* Build configuration list for PBXProject "birdman-todo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEE557772C803CFF00920FCC;
+			productRefGroup = CEE557812C803CFF00920FCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEE5577F2C803CFF00920FCC /* birdman-todo */,
+				CEE5578F2C803D0100920FCC /* birdman-todoTests */,
+				CEE557992C803D0100920FCC /* birdman-todoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEE5577E2C803CFF00920FCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE5578B2C803D0100920FCC /* Preview Assets.xcassets in Resources */,
+				CEE557882C803D0100920FCC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE5578E2C803D0100920FCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE557982C803D0100920FCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEE5577C2C803CFF00920FCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE557862C803CFF00920FCC /* ContentView.swift in Sources */,
+				CEE557842C803CFF00920FCC /* birdman_todoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE5578C2C803D0100920FCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE557952C803D0100920FCC /* birdman_todoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE557962C803D0100920FCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE557A12C803D0100920FCC /* birdman_todoUITestsLaunchTests.swift in Sources */,
+				CEE5579F2C803D0100920FCC /* birdman_todoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEE557922C803D0100920FCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEE5577F2C803CFF00920FCC /* birdman-todo */;
+			targetProxy = CEE557912C803D0100920FCC /* PBXContainerItemProxy */;
+		};
+		CEE5579C2C803D0100920FCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEE5577F2C803CFF00920FCC /* birdman-todo */;
+			targetProxy = CEE5579B2C803D0100920FCC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CEE557A22C803D0100920FCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEE557A32C803D0100920FCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEE557A52C803D0100920FCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"birdman-todo/Preview Content\"";
+				DEVELOPMENT_TEAM = CZB7R6ZRV5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.birdman-todo.birdman-todo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEE557A62C803D0100920FCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"birdman-todo/Preview Content\"";
+				DEVELOPMENT_TEAM = CZB7R6ZRV5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.birdman-todo.birdman-todo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEE557A82C803D0100920FCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CZB7R6ZRV5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.birdman-todo.birdman-todoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/birdman-todo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/birdman-todo";
+			};
+			name = Debug;
+		};
+		CEE557A92C803D0100920FCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CZB7R6ZRV5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.birdman-todo.birdman-todoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/birdman-todo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/birdman-todo";
+			};
+			name = Release;
+		};
+		CEE557AB2C803D0100920FCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CZB7R6ZRV5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.birdman-todo.birdman-todoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "birdman-todo";
+			};
+			name = Debug;
+		};
+		CEE557AC2C803D0100920FCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CZB7R6ZRV5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.birdman-todo.birdman-todoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "birdman-todo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEE5577B2C803CFF00920FCC /* Build configuration list for PBXProject "birdman-todo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE557A22C803D0100920FCC /* Debug */,
+				CEE557A32C803D0100920FCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEE557A42C803D0100920FCC /* Build configuration list for PBXNativeTarget "birdman-todo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE557A52C803D0100920FCC /* Debug */,
+				CEE557A62C803D0100920FCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEE557A72C803D0100920FCC /* Build configuration list for PBXNativeTarget "birdman-todoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE557A82C803D0100920FCC /* Debug */,
+				CEE557A92C803D0100920FCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEE557AA2C803D0100920FCC /* Build configuration list for PBXNativeTarget "birdman-todoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE557AB2C803D0100920FCC /* Debug */,
+				CEE557AC2C803D0100920FCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEE557782C803CFF00920FCC /* Project object */;
+}
