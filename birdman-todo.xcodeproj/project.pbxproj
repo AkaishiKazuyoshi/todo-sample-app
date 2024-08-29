@@ -14,6 +14,10 @@
 		CEE557952C803D0100920FCC /* birdman_todoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE557942C803D0100920FCC /* birdman_todoTests.swift */; };
 		CEE5579F2C803D0100920FCC /* birdman_todoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE5579E2C803D0100920FCC /* birdman_todoUITests.swift */; };
 		CEE557A12C803D0100920FCC /* birdman_todoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE557A02C803D0100920FCC /* birdman_todoUITestsLaunchTests.swift */; };
+		CEE557AE2C803E3A00920FCC /* MemoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE557AD2C803E3A00920FCC /* MemoListView.swift */; };
+		CEE557B12C803EA100920FCC /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE557B02C803EA100920FCC /* Todo.swift */; };
+		CEE557B32C804FFF00920FCC /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE557B22C804FFF00920FCC /* ListViewModel.swift */; };
+		CEE557B52C8051AB00920FCC /* InputBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE557B42C8051AB00920FCC /* InputBox.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		CEE5579A2C803D0100920FCC /* birdman-todoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "birdman-todoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEE5579E2C803D0100920FCC /* birdman_todoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = birdman_todoUITests.swift; sourceTree = "<group>"; };
 		CEE557A02C803D0100920FCC /* birdman_todoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = birdman_todoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CEE557AD2C803E3A00920FCC /* MemoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListView.swift; sourceTree = "<group>"; };
+		CEE557B02C803EA100920FCC /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		CEE557B22C804FFF00920FCC /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		CEE557B42C8051AB00920FCC /* InputBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputBox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +102,11 @@
 		CEE557822C803CFF00920FCC /* birdman-todo */ = {
 			isa = PBXGroup;
 			children = (
+				CEE557AF2C803E9700920FCC /* Model */,
+				CEE557B62C80665700920FCC /* View */,
 				CEE557832C803CFF00920FCC /* birdman_todoApp.swift */,
 				CEE557852C803CFF00920FCC /* ContentView.swift */,
+				CEE557B22C804FFF00920FCC /* ListViewModel.swift */,
 				CEE557872C803D0100920FCC /* Assets.xcassets */,
 				CEE557892C803D0100920FCC /* Preview Content */,
 			);
@@ -125,6 +136,23 @@
 				CEE557A02C803D0100920FCC /* birdman_todoUITestsLaunchTests.swift */,
 			);
 			path = "birdman-todoUITests";
+			sourceTree = "<group>";
+		};
+		CEE557AF2C803E9700920FCC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CEE557B02C803EA100920FCC /* Todo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CEE557B62C80665700920FCC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CEE557AD2C803E3A00920FCC /* MemoListView.swift */,
+				CEE557B42C8051AB00920FCC /* InputBox.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +285,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEE557B32C804FFF00920FCC /* ListViewModel.swift in Sources */,
 				CEE557862C803CFF00920FCC /* ContentView.swift in Sources */,
+				CEE557B52C8051AB00920FCC /* InputBox.swift in Sources */,
 				CEE557842C803CFF00920FCC /* birdman_todoApp.swift in Sources */,
+				CEE557AE2C803E3A00920FCC /* MemoListView.swift in Sources */,
+				CEE557B12C803EA100920FCC /* Todo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
